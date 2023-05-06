@@ -31,7 +31,7 @@ const Home = () => {
 
   return (
     <>
-      <div className='container max-w-screen-lg mx-auto px-5'>
+      <div className='container max-w-screen-lg mx-auto px-5 mb-10 mt-5'>
         <div className='flex justify-between'>
           <div className=''>
             <h1 className='mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-black'>Revolutionize your <br />crop and poultry<br />health<br />management.</h1>
@@ -51,7 +51,7 @@ const Home = () => {
           <div className='flex flex-col  justify-evenly h-100  ml-4'>
             <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">With Chicken65, farmers can easily detect diseases in their crops and plants at an early stage, allowing for timely intervention and containment.</p>
             <div className="card cursor-pointer">
-              <Link to='/plant'><h1 className='flex rounded-lg text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400  hover:bg-green-100 shadow-emerald-300 shadow-md  justify-center border-2 border-green-400 w-56 align center' >Plant Disease Detection</h1></Link>
+              <Link to='/plant'><button className='block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4  px-6 py-2  text-white bg-[#14b8a6]  rounded-lg hover:bg-[#0f766e]'>Plant Disease Detection</button></Link>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const Home = () => {
           <div className='flex flex-col  justify-evenly h-100  ml-4'>
             <p class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">With Chicken65, farmers can easily detect diseases in their crops and plants at an early stage, allowing for timely intervention and containment.</p>
             <div className="card cursor-pointer">
-              <Link to='/chicken'><h1 className='flex rounded-lg text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400  hover:bg-green-100 shadow-emerald-300 shadow-md  justify-center border-2 border-green-400 w-60 align center' >Poultry Disease Detection</h1></Link>
+              <Link to='/chicken'><button className='block mt-4 lg:inline-block lg:mt-0 hover:text-white mr-4  px-6 py-2  text-white bg-[#14b8a6]  rounded-lg hover:bg-[#0f766e]'>Chicken Disease Detection</button></Link>
             </div>
           </div>
         </div>
